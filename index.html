@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <title>Pomofocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- METAS -->
+<!-- 
+    1.Criar Clock personalizado e escolha tempo pelo próprio usário
+    2.Gerar Criador de tarefas manual
+    3.Poder clicar nas tarefas concluidas
+    4.colocar tarefas concluidas em uma lista
+    5.Bunito
+-->
+
+<header class="Cabecalho">
+    <div class="organizar">
+    <h1>Pomofocus</h1>
+    <nav>
+    <ul class="suportes">
+        <li><a href="">Report</a></li>
+        <li><a href="">Setting</a></li>
+        <li><a href="">Sign In</a></li>
+    </ul>
+    </nav>
+    </div>
+    <hr>
+</header>
+
+<div class="display">
+    <div class="modes">
+        <button onclick="pomodoroMode()">Pomodoro</button>
+        <button onclick="ShortBreakMode()">Short Break</button>
+        <button onclick="LongBreakMode()">Long Break</button>
+    </div>
+    <div id="timer">25:00</div>
+    <div id="atulizar">
+    <button id="Start" onclick="Start()">Start</button>
+    </div>
+
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>
